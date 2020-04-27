@@ -1,0 +1,7 @@
+m = float(input('Digite uma medida em metros: '))
+print('A medida {}m em kilômetros é {}km' .format(m, (m / 1000)))
+print('A medida {}m em hectômetros é {}hm' .format(m, (m / 100)))
+print('A medida {}m em decâmetros é {}dam' .format(m, (m / 10)))
+print('A medida {}m em decímetros é {:.0f}dm' .format(m, (m * 10)))
+print('A medida {}m em centímetros é {:.0f}cm' .format(m, (m * 100)))
+print('A medida {}m em milímetros é {:.0f}mm' .format(m, (m * 1000)))

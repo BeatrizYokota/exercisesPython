@@ -1,0 +1,5 @@
+n = (1,2,3,4,5,6,7,8,9,10)
+print(f'Os 5 primeiros colocados são {n[0:5]}')
+print(f'Os 4 últimos colocados são {n[-4:]}')
+print(f'Times em ordem alfabética: {sorted(n)}')
+print(f'O Chapecoanse entá na {n.index("Chapecoense")+1} posição')
